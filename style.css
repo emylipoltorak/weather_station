@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css?family=Slabo+27px");
+body, h1, h2, h3, div, input, button {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Slabo 27px', serif; }
+
+body {
+  display: flex;
+  min-height: 100vh; }
+
+#weather-result {
+  background-color: rgba(255, 253, 247, 0.78);
+  font-size: 2em;
+  padding: 10px 35px;
+  border: rgba(0, 0, 0, 0.76) solid 5px;
+  border-radius: 10%;
+  color: rgba(0, 0, 0, 0.76); }
+
+input {
+  width: 150px;
+  height: 40px;
+  font-size: 0.7em;
+  background-color: rgba(255, 253, 247, 0.78);
+  border: solid 1px rgba(0, 0, 0, 0.76);
+  border-radius: 0; }
+
+button {
+  background-color: rgba(0, 0, 0, 0.78);
+  font-size: 0.7em;
+  color: rgba(255, 253, 247, 0.78);
+  border: solid 2px rgba(0, 0, 0, 0.76);
+  border-radius: 3%; }
+
+.loader {
+  border: 16px solid #f3f3f3;
+  /* Light grey */
+  border-top: 16px solid rgba(0, 0, 0, 0.76);
+  /* Blue */
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+  margin: auto; }
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(360deg); } }
+
+/*# sourceMappingURL=style.css.map */
